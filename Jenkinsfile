@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'java01'
+        label 'java02'
     }
 
     tools{
