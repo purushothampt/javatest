@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'java02'
-    }
+    agent any 
 
     tools{
         maven 'mvn'
